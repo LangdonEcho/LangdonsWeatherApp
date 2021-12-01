@@ -17,6 +17,9 @@
 - [Tests](#tests)
 - [Questions](#questions)
 
+
+![Screenshot (29)](https://user-images.githubusercontent.com/86031485/144186825-9b944584-7b19-41ef-b403-eec8d00816d7.png)
+
 ## Installation
 💾 clone repository and get your own api key from Open weather app API
 
