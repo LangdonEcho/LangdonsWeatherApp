@@ -132,13 +132,13 @@ var saveCity = (newCity) => {
             break;
         }
     }
-    // Save to localStorage if city is new
+    // Save to localStorage if city is different
     if (cityExists === false) {
         localStorage.setItem('cities' + localStorage.length, newCity);
     }
 }
 
-// Render the list of searched cities
+// Show the list of searched cities
 var renderCities = () => {
     $('#city-results').empty();
     // If localStorage is empty
@@ -205,5 +205,5 @@ $("#clear-storage").on("click", (event) => {
 // Render the searched cities
 renderCities();
 
-// Get the current conditions (which also calls the five day forecast)
+// calls the five day forecast
 getCurrentConditions();
